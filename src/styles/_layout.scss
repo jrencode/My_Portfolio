@@ -1,0 +1,19 @@
+.App {
+  .sidebar {
+    width: 18%;
+    height: 100vh;
+    background-color: #191D2B;
+    position: fixed;
+  }
+  .main-content {
+    width: 82%;
+    margin-left: 16%;
+    background-color: #10121B;
+    min-height: 100vh;
+    background-image: url(../img/dots.svg);
+    display: grid;
+    .content {
+      margin: 5rem 2.5rem 0 10rem;
+    }
+  }
+}

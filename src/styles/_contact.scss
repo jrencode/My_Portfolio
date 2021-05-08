@@ -1,0 +1,21 @@
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.contact-sect {
+  flex: 0 0 40%;
+  margin: 1rem 1.5rem 1rem 0;
+  width: 40%;
+}
+.map-sect {
+  iframe {
+    width: 50rem;
+    height: 60rem;
+    min-width: 20rem;
+  }
+}
+.contact:hover {
+  color: #037FFF;
+}
