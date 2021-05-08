@@ -10,11 +10,17 @@
   width: 40%;
 }
 .map-sect {
+  flex: 0 0 45%;
   iframe {
-    width: 50rem;
-    height: 60rem;
+    width: 30rem;
+    height: 25rem;
     min-width: 20rem;
   }
+}
+.contact {
+  background-color: #191D2B;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
 }
 .contact:hover {
   color: #037FFF;

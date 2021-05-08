@@ -1,0 +1,16 @@
+
+.portfolios {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  .portfolio {
+    margin: 2rem 2rem 2rem 0;
+    .image-data {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
